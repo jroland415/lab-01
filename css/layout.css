@@ -1,0 +1,70 @@
+#a, #b, #c, #d, #i {
+  width: 100%;
+}
+
+#e, #f, #g, #h {
+  width: 50%;
+  float: left;
+}
+
+#i {
+  clear: both;
+}
+
+#a {
+  height: 75px;
+  line-height: 75px;
+}
+
+#b {
+  height: 150px;
+  line-height: 150px;
+}
+
+#c, #d {
+  height: 125px;
+  line-height: 125px;
+}
+
+#e, #f, #g, #h {
+  height: 250px;
+  line-height: 250px;
+}
+
+#i {
+  height: 80px;
+  line-height: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  #a {
+    width: 960px;
+    height: 100px;
+    line-height: 100px;
+  }
+  #b {
+    width: 20.8333%;
+    height: 600px;
+    line-height: 600px;
+    float: left;
+  }
+  #c, #d {
+    width: 39.5833%;
+    height: 200px;
+    line-height: 200px;
+    float: left;
+  }
+  #e, #f, #g, #h {
+    width: 19.79167%;
+    height: 250px;
+    line-height: 250px;
+    float: left;
+  }
+  #i {
+    clear: none;
+    width: 79.16667%;
+    height: 150px;
+    line-height: 150px;
+    float: right;
+  }
+}
