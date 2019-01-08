@@ -1,0 +1,57 @@
+#a {
+  background-color: rgb(218, 114, 114)
+}
+#b {
+  background-color: rgb(161, 161, 228)
+}
+#c {
+  background-color: rgb(245, 245, 146)
+}
+#d {
+  background-color: rgb(111, 209, 111)
+}
+#e {
+  background-color: rgb(97, 86, 86)
+}
+#f {
+  background-color: rgb(238, 162, 22)
+}
+#g {
+  background-color: cadetblue
+}
+#h {
+  background-color: deepskyblue
+}
+#i {
+  background-color: olive
+}
+
+@media only screen and (min-width: 768px) {
+  #a {
+    background-color: yellowgreen;
+  }
+  #b {
+    background-color: aqua;
+  }
+  #c {
+    background-color: darksalmon;
+  }
+  #d {
+    background-color: burlywood;
+  }
+  #e {
+    background-color: cornflowerblue;
+  }
+  #f {
+    background-color: lightgreen;
+  }
+  #g {
+    background-color: goldenrod;
+  }
+  #h {
+    background-color: indianred
+  }
+  #i {
+    background-color: darkorchid;
+  }
+}
